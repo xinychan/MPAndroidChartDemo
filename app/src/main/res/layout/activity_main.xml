@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ubpost.mpandroidchartdemo.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_MainActivity_btn01"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="折线图 基础属性测试示例"/>
+
+            <Button
+                android:id="@+id/btn_MainActivity_btn02"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="条形图 BarChart"/>
+
+            <Button
+                android:id="@+id/btn_MainActivity_btn03"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="组合图表 Combined-Chart"/>
+
+            <Button
+                android:id="@+id/btn_MainActivity_btn04"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="圆饼图 PieChart"/>
+
+            <Button
+                android:id="@+id/btn_MainActivity_btn05"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="散射图 ScatterChart"/>
+
+            <Button
+                android:id="@+id/btn_MainActivity_btn06"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="K线图 CandleStickChart"/>
+
+            <Button
+                android:id="@+id/btn_MainActivity_btn07"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="泡泡图 BubbleChart"/>
+
+            <Button
+                android:id="@+id/btn_MainActivity_btn08"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="雷达/网状图 RadarChart"/>
+
+            <Button
+                android:id="@+id/btn_MainActivity_btn09"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="折线图 LineChart"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
